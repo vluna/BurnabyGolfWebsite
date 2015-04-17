@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang = "en"> 
+
+	<!-- The head tag defines what our page is about and needs to a browser -->
+	<head> 
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title> Home Page </title>
+
+	    <link rel="stylesheet" href="css/normalize.css">
+	    <link rel="stylesheet" href="css/main.css">
+ 		<link rel="stylesheet" href="css/grid.css">
+	</head>
+
+	<!-- The body will contain the information inside the website -->
+	<body> 
+		<!-- Common Elemnt: Navigation -->
+		<!-- This section will be the navigation, it will be used for all of our pages -->
+
+		<!-- Navagiation panel, links to other pages in the website -->
+        <nav class="grid">
+            <ul>
+                <li class="col-2of10">
+                    <a href = "Index.html"> <img class="logo" src="img/city-of-burnaby-logo.png" height = "45" width = "115" alt = "Burnaby Golf Logo"></a>
+                </li>
+
+                <li class="col-2of10">
+                    <div class="vertical"></div>
+                    <a class="navToggle navClicked" href="#top">FACILITIES</a>
+                    <ul class="sub">
+                        <li><a href="Golf_Courses.html" class="navColour">Golf Courses</a></li>
+                        <li><a href="Index.html" class="navColour">Driving Ranges</a></li>
+                        <li><a href="Index.html" class="navColour">Pitch &amp; Putt</a></li>
+                        <li><a href="Index.html" class="navColour">Club House</a></li>
+                    </ul>
+                </li>
+
+                <li class="col-2of10">
+                    <div class="vertical"></div>
+                    <a class="navToggle " href="#top" >SERVICES</a>
+                    <ul class="sub">
+                        <li><a href="Index.html" class="navColour">Book a Tee Time</a></li>
+                        <li><a href="Lessons_And_Programs.html" class="navColour">Lessons &amp; Programs</a></li>
+                        <li><a href="Latest_News.html" class="navColour">Latest News</a></li>
+                        <li><a href="Index.html" class="navColour">Events</a></li>
+                        <li><a href="Index.html" class="navColour">Shop Now</a></li>
+                    </ul>
+                </li>
+
+                <li class="col-2of10">
+                    <div class="vertical"></div>
+                    <a href="About.html">ABOUT US</a>
+                </li>
+
+                <li class="col-2of10">
+                    <div class='loginBox'>
+                    <div class="vertical"> </div>
+                    <a class='open' href='#'>LOGIN</a>
+                        <div class='collapse'>
+                            <div class='box'>
+                                <div class='arrow'></div>
+                                <div class="input">
+                                    <input type="text" name="emai" id="email" placeholder="Email"/>
+                                </div>
+                                <div class="input">
+                                    <input type="password" name="password" id="password" placeholder="Password" />
+                                </div>
+                                <input type="button" class="close" value="Login"/> <input type="button" class="close" value="SignUp"/><a class="close">Foorgot Password?</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+		<!-- This will load the picture that will be display at the home page -->
+		<div class="mainImg">
+			<img src="img/golf-burnaby.jpg" height = "1000" width = "1000" alt = "Pictures showing Burnaby Golf">
+		</div>
+		
+        <main>
+
+			<div class="grid">
+				<div class="col-1of1">
+					<h1>Welcome to Burnaby Golf</h1>
+				</div>
+
+				<!-- This section will contain the blur for Burnaby Gold website the land page -->
+				<article>
+					<div class="centerText">
+						<div class="col-1of1">
+						<!-- Description of Burnabys Golf webiste in the first page -->
+						<p class="colour-grey"> Burnaby&#39;s natural beauty and excellent public golfing facilities give you many of the luxuries of a private club right in the heart of the lower mainland. Enjoy the peaceful and serene park like settings of our two exceptional 18 hole golf courses, two challenging Pitch &amp; Putt layouts, and our industry leading Driving Ranges and golf improvement centres. Burnaby Golf has a long standing reputation for developing and teaching the game of golf in local schools and promoting interest for junior, beginner, and novice players through our wide variety of programs. We pride ourselves in offering golf courses with outstanding playing conditions year-round which offer challenges and enjoyment to golfers of all abilities at value driven rates. </p>
+						</div>
+					</div>
+				</article>
+			</div>
+
+			<!-- This section will contain pictures that link to different pages accordingly -->
+			<div class="grid">
+					<!-- Table containing the pictures that link to different parts of the website, quick links -->
+					<!-- Loads Book a Tee Time icon short cut -->
+					<div class="col-1of4">
+						<h2> Book a Tee Time </h2>
+						<figure>
+							<a href = "Index.html" class="svg"> <img class="mhomeicons" src="img/icons/Book_a_teetime_icon.svg" height = "100" width = "200" alt = "Book a tee time"></a>
+							<figcaption> Tee times are generally available from sunrise to sunset. Early morning lead groups are expected to set the Pace of Play for the day.</figcaption>
+						</figure>
+					</div>
+
+					<!-- Loads Book a Lesson shortcut icon -->
+					<div class="col-1of4">
+						<h2> Book a Lesson </h2>
+						<figure>
+			        		<a href = "Lessons_And_Programs.html"> <img class="mhomeicons" src="img/icons/book_a_lesson_icon.svg" height = "100" width = "200" alt = "Book a lesson"></a>
+							<figcaption> It is our goal at Burnaby Golf to make the game as easy as possible for you to learn, to enjoy, and to play for a lifetime. </figcaption>
+						</figure>
+			        </div>
+
+			       	<!-- Loads Driving Ranges icon short cut -->	
+			       	<div class="col-1of4">
+			       		<h2> View Driving Ranges </h2>
+			       		<figure>
+			        		<a href = "Index.html"> <img class="mhomeicons" src="img/icons/driving_range_icon.svg" height = "100" width = "200" alt = "Driving ranges"></a>
+			        		<figcaption> Driving range is open until 10 pm (last balls sold / dispensed at 9 pm) - instructional programs for all ages and calibers available all year round!</figcaption>
+						</figure>
+			        </div>
+
+			      	<!-- Loads Events icon short cut -->
+			      	<div class="col-1of4">
+			      		<h2> View Latest News </h2>
+			      		<figure>
+				        	<a href = "Latest_News.html"> <img  class="mhomeicons" src="img/icons/news.svg" height = "100" width = "200" alt = "Latest News"></a>
+				        	<figcaption> For information regarding restaurant or banquet facilities please call (604) 297-4888.</figcaption>
+						</figure>
+				    </div>
+			</div>
+	    </main>
+
+        <!-- Common Element: Footer -->
+        <!-- This section will be the footer which will be used in all of our pages -->
+        <!-- Footer containing address, email and social media accounts of Burnaby's Golf website -->
+        <footer>
+            <!-- Shows the address and allows you to send an email to City of Burnaby -->
+            <div class="footerAlign">
+                <p><strong>City of Burnaby</strong> <br>101-4946 Canada Way <br>Burnaby, BC, V5G 4H7<br> <a href="mailto:golf@burnaby.ca"> Email us </a></p> 
+            </div>
+
+            <!-- Shows the icon to the social media accounts -->
+            <a href = "https://twitter.com/BurnabyGolf" target="_blank"> <img src="img/twitter-logo.png" height = "35" width = "35" alt = "Twitter logo"></a>
+
+            <a href = "https://www.facebook.com/BurnabyGolf" target="_blank"> <img src="img/facebook-logo.png" height = "35" width = "35" alt = "Facebook logo"></a>
+
+            <a href = "https://plus.google.com/110594864710142862253/posts" target="_blank"> <img src="img/google-plus-logo.png" height = "35" width = "35" alt = "Google+ logo"></a>
+        </footer>
+
+        <!-- Common Element: Script -->
+        <!-- Loding the scripts required for the login acorss the websit -->
+        <script type='text/javascript' src='js/jquery.js'></script>
+        <script type='text/javascript' src='js/login.js'></script>
+        <script src="js/hamburger.js"></script>
+        <script type='text/javascript'>
+            $(document).ready(function(){
+                $('.loginBox').popbox();
+            });
+        </script>
+    </body>
+</html>

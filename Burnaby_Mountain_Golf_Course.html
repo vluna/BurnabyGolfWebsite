@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Burnaby Mountain Golf Course</title>
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/grid.css">
+    </head>
+    <body>
+        <!-- Common Elemnt: Navigation -->
+        <!-- This section will be the navigation, it will be used for all of our pages -->
+        <!-- Navagiation panel, links to other pages in the website -->
+        <nav class="grid">
+            <ul>
+                <li class="col-2of10">
+                    <a href = "Index.html"> <img class="logo" src="img/city-of-burnaby-logo.png" height = "45" width = "115" alt = "Burnaby Golf Logo"></a>
+                </li>
+
+                <li class="col-2of10">
+                    <div class="vertical"></div>
+                    <a class="navToggle navClicked" href="#top">FACILITIES</a>
+                    <ul class="sub">
+                        <li><a href="Golf_Courses.html" class="navColour">Golf Courses</a></li>
+                        <li><a href="Index.html" class="navColour">Driving Ranges</a></li>
+                        <li><a href="Index.html" class="navColour">Pitch &amp; Putt</a></li>
+                        <li><a href="Index.html" class="navColour">Club House</a></li>
+                    </ul>
+                </li>
+
+                <li class="col-2of10">
+                    <div class="vertical"></div>
+                    <a class="navToggle " href="#top" >SERVICES</a>
+                    <ul class="sub">
+                        <li><a href="Index.html" class="navColour">Book a Tee Time</a></li>
+                        <li><a href="Lessons_And_Programs.html" class="navColour">Lessons &amp; Programs</a></li>
+                        <li><a href="Latest_News.html" class="navColour">Latest News</a></li>
+                        <li><a href="Index.html" class="navColour">Events</a></li>
+                        <li><a href="Index.html" class="navColour">Shop Now</a></li>
+                    </ul>
+                </li>
+
+                <li class="col-2of10">
+                    <div class="vertical"></div>
+                    <a href="About.html">ABOUT US</a>
+                </li>
+
+                <li class="col-2of10">
+                    <div class='loginBox'>
+                    <div class="vertical"> </div>
+                    <a class='open' href='#'>LOGIN</a>
+                        <div class='collapse'>
+                            <div class='box'>
+                                <div class='arrow'></div>
+                                <div class="input">
+                                    <input type="text" name="emai" id="email" placeholder="Email"/>
+                                </div>
+                                <div class="input">
+                                    <input type="password" name="password" id="password" placeholder="Password" />
+                                </div>
+                                <input type="button" class="close" value="Login"/> <input type="button" class="close" value="SignUp"/><a class="close">Foorgot Password?</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Image Showing off Burnaby Mountain course -->
+        <div class="mainImg">
+            <img src="img/burnaby-mountain.jpg" alt="Riverway Golf Course Image">
+        </div>
+
+        <div class="grid">
+            <main>
+                <div class="col-1of1">
+                    <h1>Burnaby Mountain Golf Course</h1>
+                </div>
+
+                <!-- Description Butnaby Golf Course -->
+                <article>
+                    <div class="col-1of1">
+                        <div class="centerText">
+                            <p class="text-left">Burnaby Mountain Golf Course, situated in the greater Vancouver area of north Burnaby, has been rated by Golf Digest as "One of the Best Places to Play" in North America! This popular golf course boasts <strong>5,800 - 6,400 yards</strong>of natural tree-lined beauty and gentle rolling terrain which offers a blend of charm, character and serenity. It requires precise shot-making to achieve par but recreational players find it very forgiving! We hope you enjoy your visit to Burnaby Mountain and take advantage of our full range of services, 18 hole challenging golf course with Pro Shop, Custom Club Fitting, Apparel and Accessories, new 2-tiered heated state-of-the-art Driving Range and Practice Areas.</p>
+
+                            <p class="text-left">Take advantage of our full range of services! Our full-service Pro Shop offers brand name golf equipment and golf attire at competitive prices. We provide full-service rentals of golf clubs, pull carts and power carts and our CPGA Professionals are available for custom club fitting.  Our driving range and practice facilities are perfect places to work on your skills. Our beautiful new covered 2-tier/climate controlled driving range is night-lit for your convenience. </p>
+                        </div>
+                    </div>
+                </article>
+            </main>
+        </div>
+
+        <!-- Contact info for the golf course -->
+        <div class="grid">
+            <div class="col-1of2">
+                <article>
+                    <h2 class="golfCoursesContactInfoHead"> Contact Us </h2>
+                    <ul>
+                        <li class="golfCoursesContactInfo"> 7600 Halifax Street </li>
+                        <li class="golfCoursesContactInfo"> Burnaby, BC V5A 4M8 </li>
+                        <li class="golfCoursesContactInfo"> (604) 280-7355 </li>
+                        <li class="golfCoursesContactInfo"> golf@burnaby.ca </li>
+                    </ul>
+                </article>
+            </div>
+
+            <!-- Map for the golf course -->
+            <div class="col-1of2">
+                <div id="map_canvas"></div>
+            </div>
+        </div>
+
+        <div class="space"> </div>
+
+        <!-- Common Element: Footer -->
+        <!-- This section will be the footer which will be used in all of our pages -->
+        <!-- Footer containing address, email and social media accounts of Burnaby's Golf website -->
+        <footer>
+            <!-- Shows the address and allows you to send an email to City of Burnaby -->
+            <div class="footerAlign">
+                <p><strong>City of Burnaby</strong> <br>101-4946 Canada Way <br>Burnaby, BC, V5G 4H7<br> <a href="mailto:golf@burnaby.ca"> Email us </a></p> 
+            </div>
+
+            <!-- Shows the icon to the social media accounts -->
+            <a href = "https://twitter.com/BurnabyGolf" target="_blank"> <img src="img/twitter-logo.png" height = "35" width = "35" alt = "Twitter logo"></a>
+
+            <a href = "https://www.facebook.com/BurnabyGolf" target="_blank"> <img src="img/facebook-logo.png" height = "35" width = "35" alt = "Facebook logo"></a>
+
+            <a href = "https://plus.google.com/110594864710142862253/posts" target="_blank"> <img src="img/google-plus-logo.png" height = "35" width = "35" alt = "Google+ logo"></a>
+        </footer>
+
+        <!-- Common Element: Script -->
+        <!-- Loding the scripts required for the login acorss the websit -->
+        <script type='text/javascript' src='js/jquery.js'></script>
+        <script type='text/javascript' src='js/login.js'></script>
+        <script src="js/hamburger.js"></script>
+        <script type='text/javascript'>
+            $(document).ready(function(){
+                $('.loginBox').popbox();
+            });
+        </script>
+        <!-- This script will load the map for the location of the golf course -->
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
+        <script>
+          function initialize() {
+            var mapCanvas = document.getElementById('map_canvas');
+            var mapOptions = {
+              center: new google.maps.LatLng(49.200591,-122.990237),
+              zoom: 16,
+              mapTypeId: google.maps.MapTypeId.ROADMAP
+            }
+            var map = new google.maps.Map(mapCanvas, mapOptions)
+          }
+          google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
+    </body>
+</html>

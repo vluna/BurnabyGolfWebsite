@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Private Semiprivate Lesson</title>
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/grid.css">
+    </head>
+    <body>
+        <!-- Common Elemnt: Navigation -->
+        <!-- This section will be the navigation, it will be used for all of our pages -->
+        <!-- Navagiation panel, links to other pages in the website -->
+        <nav class="grid">
+            <ul>
+                <li class="col-2of10">
+                    <a href = "Index.html"> <img class="logo" src="img/city-of-burnaby-logo.png" height = "45" width = "115" alt = "Burnaby Golf Logo"></a>
+                </li>
+
+                <li class="col-2of10">
+                    <div class="vertical"></div>
+                    <a class="navToggle navClicked" href="#top">FACILITIES</a>
+                    <ul class="sub">
+                        <li><a href="Golf_Courses.html" class="navColour">Golf Courses</a></li>
+                        <li><a href="Index.html" class="navColour">Driving Ranges</a></li>
+                        <li><a href="Index.html" class="navColour">Pitch &amp; Putt</a></li>
+                        <li><a href="Index.html" class="navColour">Club House</a></li>
+                    </ul>
+                </li>
+
+                <li class="col-2of10">
+                    <div class="vertical"></div>
+                    <a class="navToggle " href="#top" >SERVICES</a>
+                    <ul class="sub">
+                        <li><a href="Index.html" class="navColour">Book a Tee Time</a></li>
+                        <li><a href="Lessons_And_Programs.html" class="navColour">Lessons &amp; Programs</a></li>
+                        <li><a href="Latest_News.html" class="navColour">Latest News</a></li>
+                        <li><a href="Index.html" class="navColour">Events</a></li>
+                        <li><a href="Index.html" class="navColour">Shop Now</a></li>
+                    </ul>
+                </li>
+
+                <li class="col-2of10">
+                    <div class="vertical"></div>
+                    <a href="About.html">ABOUT US</a>
+                </li>
+
+                <li class="col-2of10">
+                    <div class='loginBox'>
+                    <div class="vertical"> </div>
+                    <a class='open' href='#'>LOGIN</a>
+                        <div class='collapse'>
+                            <div class='box'>
+                                <div class='arrow'></div>
+                                <div class="input">
+                                    <input type="text" name="emai" id="email" placeholder="Email"/>
+                                </div>
+                                <div class="input">
+                                    <input type="password" name="password" id="password" placeholder="Password" />
+                                </div>
+                                <input type="button" class="close" value="Login"/> <input type="button" class="close" value="SignUp"/><a class="close">Foorgot Password?</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="mainImg">
+            <img src="img/lesson.jpg" alt="Riverway Golf Course Image">
+        </div>
+
+		<!-- Heading for the page -->
+		<div class="grid">
+            <main >
+                <div class="col-1of1">
+                    <h1> Book a Private or Semi-Private Lesson </h1>
+                </div>
+            
+                <!-- This section will contain the complete information of Private/Semii-Privtae Leassons-->
+                <article>
+                    <!-- Description of Private or Semi-Private Lessons -->
+                    <div class="centerText">
+                        <p class="text-left"> Private or semi-private lesson packages are available year-round. Tailored specifically for each golfer, this popular format allows for maximum flexibility in lesson times and content. All prices noted below are per person. Whenever possible, please provide a minimum of 72 hours notice for rescheduling. </p>
+                    </div>
+
+                    <!-- Table for the private/semiprivate package -->
+                    <div class="col-1of1">
+                        <div class='table'>
+                            <div class='silver'>
+                                <h2>Single Lesson</h2>
+                                <span>1 student</span>
+                                <span>30 minutes per lesson</span>
+                                <span>$64</span>
+                                <input type="button" id="booknow" value="Book Now!" onclick="div_show()"/>
+                                <div class="buttonSpace"></div>
+
+                                <span>2-3 students</span>
+                                <span>40 minutes per lesson</span>
+                                <span>$54</span>
+                                <input type="button" id="booknow1" value="Book Now!" onclick="div_show()"/>
+                                <div class="buttonSpace2"></div>
+                            </div>
+
+                            <div class='gold'>
+                                <h2>Three Lesson Series</h2>
+                                <span>1 student</span>
+                                <span>30 minutes per lesson</span>
+                                <span>$168</span>
+                                <input type="button" id="booknow2" value="Book Now!" onclick="div_show()"/>
+                                <div class="buttonSpace"></div>
+
+                                <span>2-3 students</span>
+                                <span>45 minutes per lesson</span>
+                                <span>$168</span>
+                                <input type="button" id="booknow3" value="Book Now!" onclick="div_show()"/>
+                                <div class="buttonSpace2"></div>
+                            </div>
+                  
+                            <div class='plat'>
+                                <h2>Five Lesson Series</h2>
+                                <span>1 student</span>
+                                <span>30 minutes per lesson</span>
+                                <span>$242</span>
+                                <input type="button" id="booknow4" value="Book Now!" onclick="div_show()"/>
+                                <div class="buttonSpace"></div>
+
+                                <span>2-3 students</span>
+                                <span>45 minutes per lesson</span>
+                                <span>$214</span>
+                                <input type="button" id="booknow5" value="Book Now!" onclick="div_show()"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="centerText">
+                        <p class="text-left"> Performance Enhancing Packages are personally designed to help you achieve your golfing goals, this accelerated high performace six lesson program will provide you with an in-depth analysis of your game, offer comprehensive training and ongoing evaluation. Includes Video analysis &amp; an on-course playing lesson</p>
+                    </div>
+
+                    <!-- Table for the performance enhacing package -->
+                    <div class="col-1of1">
+                        <div class="table">
+                            <div class="adult">
+                                 <h2>Adult</h2>
+                                 <span>6 lessons</span>
+                                 <span>30 minutes per lessons</span>
+                                 <span>Video Analysis</span>
+                                 <span>$314</span>
+                                <input type="button" id="booknow6" value="Book Now!" onclick="div_show()"/>
+                                <div class="buttonSpace2"></div>
+                            </div>
+
+                            <div class="youth">
+                                 <h2>Youth</h2>
+                                 <span>6 lessons</span>
+                                 <span>30 minutes per lessons</span>
+                                 <span>Video Analysis</span>
+                                 <span>$235</span>
+                                 <input type="button" id="booknow7" value="Book Now!" onclick="div_show()"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="centerText">
+                        <p class="text-left"> Coaching Package is designed for the player who really wants to improve. Fee includes:</p>
+                    </div>
+
+                    <!-- Table for the coaching package -->
+                    <div class="table">
+                        <div class="col-1of1">
+                            <div class="adult">
+                                 <h2>Adult</h2>
+                                 <span>5 hours of instruction</span>
+                                 <span>50 range buckets</span>
+                                 <span>9 hole playing lesson</span>
+                                 <span>2 lesosns video analysis</span>
+                                 <span>$659</span>
+                                <input type="button" id="booknow8" value="Book Now!" onclick="div_show()"/>
+                                <div class="buttonSpace2"></div>
+                            </div> 
+
+                            <div class="youth">
+                                 <h2>Youth</h2>
+                                 <span>5 hours of instruction</span>
+                                 <span>50 range buckets</span>
+                                 <span>9 hole playing lesson</span>
+                                 <span>2 lesosns video analysis</span>
+                                 <span>$495</span>
+                                 <input type="button" id="booknow9" value="Book Now!" onclick="div_show()"/>
+                             </div>
+                         </div>
+                    </div>
+
+                    <div class="col-1of1">
+                        <div class="centerText">
+                            <p class="text-left"> Speak to one of our CPGA Pros about creating your own unique instructional package - we will be happy to customize a tailor-made program designed just for you!</p>
+
+                            <p class="text-left"> We will make every effort to accommodate your schedule within an 18 month period. Refunds (if approved) for customized programs will be determined based on circumstances and must be approved by the Head Professional/Management.</p>
+                        </div>
+                    </div>
+                </article>
+            </main>        
+        </div>
+
+
+        <!-- Common Element: Booking process -->
+        <!-- this section will contain the input to book a lesson -->
+        <div id="abc">
+            <div id="popupLessonOptions">
+                <form class="regform" action="#" method ="get">
+                    <fieldset id="first">
+                        <img class="close" src="img/icons/Close.svg" onclick ="div_hide()" width="20" height="20" alt="close button">
+                        <!-- Option to select the golf course -->
+                        <h2 class="title">Golf Course</h2>
+                        <img class="subtitle" src="img/step1.png" width="250" height="105" alt="steps to be completed">
+                        <div class="grid">
+                            <div class="col-1of2">
+                                <input type="radio" name="GolfCourse" value="Burnaby"> Burnaby Mountain Golf Course
+                                <figure>
+                                    <img alt="Burnaby Mountain Goulf Course" src="img/burnaby-mountain.jpg" width="200" height="150">
+                                </figure>
+                            </div>
+                            <div class="col-1of2">
+                                <input type="radio" name="GolfCourse" value="Riverway"> Riverway Golf Course
+                                    <figure>
+                                        <img alt="Riverway Golf Course" src="img/riverway.jpg" width="200" height="150">
+                                    </figure>
+                            </div>
+                        </div>
+                        <input type="button" id="next_btn1" value="Next" onclick="next_step1()" />
+                    </fieldset>
+
+                    <fieldset id="second">
+                        <img class="close" src="img/icons/Close.svg" onclick ="div_hide()" width="20" height="20" alt="close button">
+                        <!-- Select Date and Time fields -->
+                        <h2 class="title">Date and Time</h2>
+                        <img class="subtitle" src="img/step2.png" width="250" height="105" alt="steps to be completed">
+                        <select class="options">
+                            <option>Private Lesson</option>
+                            <option>Semi-Private Lesson</option>
+                        </select><br/>
+                        <input type="date" name="date" min="2014-10-21" data-placeholder="Date"><br/>
+                        <input type="time" name="time" data-placeholder="Time"><br/>
+                        <input type="button" id="pre_btn1" value="Previous" onclick="prev_step1()"/>
+                        <input type="button" name="next" id="next_btn2" value="Next" onclick="next_step2()" />
+                    </fieldset>
+
+                    <fieldset id="third">
+                        <img class="close" src="img/icons/Close.svg" onclick ="div_hide()" width="20" height="20" alt="close button">
+                        <div class="grid">
+                            <!-- Personal details fields -->
+                            <h2 class="title">Personal Details</h2>
+                            <img class="subtitle" src="img/step3.png" width="250" height="105" alt="steps to be completed">
+                            <input type="text" name="fname" class="text_field" placeholder="First Name" /><br/>
+                            <input type="text" name="lname" class="text_field" placeholder="Last Name" /><br/>
+                            <input type="text" class="text_field" name="email" placeholder="Email" value=""/><a href="">Why email?</a><br/>
+                            
+                            <!-- Opition to pay online fields -->
+                            <h2> Do you want to pay online? </h2>
+                            <input type="text" id="creditcardnumber" name="creditcardnumber" placeholder="Credit Card Number"><br/>
+                            <input type="text" id="expiredate" name="expiredate" placeholder="Expire Date"><br/>
+                            <input type="text" id="securitycode" name="securitycode" placeholder="Card Security Code"><a href="">What is this?</a><br/>
+                            <input type="radio" name="termsandconditions" value="termsandconditions"> Agree to Terms and Conditions<br/>
+                            <input type="button" id="pre_btn2" value="Previous" onclick="prev_step2()"/>
+                            <input type="button" id="submit" value="Submit" onclick="submit_btn()"/>
+                        </div>
+                    </fieldset>
+
+                    <!-- Confirmation page after the booking process -->
+                    <fieldset id="Confirmation_Page">
+                        <h2> Your lesson has been booked! </h2>
+                        <input type="button" id="popUpClose" value="Close" onclick="div_hide()"/>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+
+        <div class="space"> </div>
+
+        <!-- Common Element: Footer -->
+        <!-- This section will be the footer which will be used in all of our pages -->
+        <!-- Footer containing address, email and social media accounts of Burnaby's Golf website -->
+        <footer>
+            <!-- Shows the address and allows you to send an email to City of Burnaby -->
+            <div class="footerAlign">
+                <p><strong>City of Burnaby</strong> <br>101-4946 Canada Way <br>Burnaby, BC, V5G 4H7<br> <a href="mailto:golf@burnaby.ca"> Email us </a></p> 
+            </div>
+
+            <!-- Shows the icon to the social media accounts -->
+            <a href = "https://twitter.com/BurnabyGolf" target="_blank"> <img src="img/twitter-logo.png" height = "35" width = "35" alt = "Twitter logo"></a>
+
+            <a href = "https://www.facebook.com/BurnabyGolf" target="_blank"> <img src="img/facebook-logo.png" height = "35" width = "35" alt = "Facebook logo"></a>
+
+            <a href = "https://plus.google.com/110594864710142862253/posts" target="_blank"> <img src="img/google-plus-logo.png" height = "35" width = "35" alt = "Google+ logo"></a>
+        </footer>
+
+        <!-- Common Element: Script -->
+        <!-- Loding the scripts required for the login acorss the websit -->
+        <script type='text/javascript' src='js/booking-form.js'></script>
+        <script type='text/javascript' src='js/jquery.js'></script>
+        <script type='text/javascript' src='js/login.js'></script>
+        <script src="js/hamburger.js"></script>
+        <script type='text/javascript'>
+            $(document).ready(function(){
+                $('.loginBox').popbox();
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>About Burnaby Golf</title>
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/grid.css">
+
+	</head>
+	<body>
+        <!-- Common Elemnt: Navigation -->
+        <!-- This section will be the navigation, it will be used for all of our pages -->
+        <!-- Navagiation panel, links to other pages in the website -->
+        <nav class="grid">
+            <ul>
+                <li class="col-2of10">
+                    <a href = "Index.html"> <img class="logo" src="img/city-of-burnaby-logo.png" height = "45" width = "115" alt = "Burnaby Golf Logo"></a>
+                </li>
+
+                <li class="col-2of10">
+                    <div class="vertical"></div>
+                    <a class="navToggle navClicked" href="#top">FACILITIES</a>
+                    <ul class="sub">
+                        <li><a href="Golf_Courses.html" class="navColour">Golf Courses</a></li>
+                        <li><a href="Index.html" class="navColour">Driving Ranges</a></li>
+                        <li><a href="Index.html" class="navColour">Pitch &amp; Putt</a></li>
+                        <li><a href="Index.html" class="navColour">Club House</a></li>
+                    </ul>
+                </li>
+
+                <li class="col-2of10">
+                    <div class="vertical"></div>
+                    <a class="navToggle " href="#top" >SERVICES</a>
+                    <ul class="sub">
+                        <li><a href="Index.html" class="navColour">Book a Tee Time</a></li>
+                        <li><a href="Lessons_And_Programs.html" class="navColour">Lessons &amp; Programs</a></li>
+                        <li><a href="Latest_News.html" class="navColour">Latest News</a></li>
+                        <li><a href="Index.html" class="navColour">Events</a></li>
+                        <li><a href="Index.html" class="navColour">Shop Now</a></li>
+                    </ul>
+                </li>
+
+                <li class="col-2of10">
+                    <div class="vertical"></div>
+                    <a href="About.html">ABOUT US</a>
+                </li>
+
+                <li class="col-2of10">
+                    <div class='loginBox'>
+                    <div class="vertical"> </div>
+                    <a class='open' href='#'>LOGIN</a>
+                        <div class='collapse'>
+                            <div class='box'>
+                                <div class='arrow'></div>
+                                <div class="input">
+                                    <input type="text" name="emai" id="email" placeholder="Email"/>
+                                </div>
+                                <div class="input">
+                                    <input type="password" name="password" id="password" placeholder="Password" />
+                                </div>
+                                <input type="button" class="close" value="Login"/> <input type="button" class="close" value="SignUp"/><a class="close">Foorgot Password?</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Image showing off about us -->
+        <div class="mainImg">
+            <img src="img/about.jpg" height = "1000" width = "1000" alt = "Pictures showing Riverway Golf">
+        </div>
+
+		<!-- Another section tag can be used here because all of the content is related -->
+        <div class="grid">
+            <main>
+                <div class="col-1of1">
+                     <h1>About Us</h1>	<!-- Subheading "About Us has h1 tags" -->
+                </div>
+
+                <article>
+                    <div class="col-1of1">
+                        <!-- Description on the Riverway Golf Course -->
+                        <div class="centerText">
+                            <p class="text-left">The City of Burnaby operates four high-quality golf facilities which are professionally maintained year-round for your recreational enjoyment. Burnaby's natural beauty and spectacular public golf facilities offer many of the luxuries of a private club right in the heart of the lower mainland. We pride ourselves in offering golf courses with unique designs and outstanding year-round playing conditions that offer the challenges and enjoyment for golfers of all ages and abilities to enjoy within a competitive, fair price structure. Enjoy the peaceful park-like settings of our two exceptional 18 hole golf courses - Riverway and Burnaby Mountain - and our two challenging pitch and putts (Kensington and Central Park). We also have two industry-leading Driving Ranges / Learning &amp; Improvement Centers. Burnaby Golf has a long standing reputation for developing and teaching the game in local schools and driving interest for youth and new players through our wide variety of programs.</p>
+
+                            <p class="text-left">Call us and come see what makes Burnaby Golf so popular in the greater Vancouver and Lower Mainland areas! Please click on the facilities tab for more information about each site!</p>
+                        </div>
+
+                        <!-- Contact inforamtion -->
+                        <ul class="alignList">	
+                            <li>Burnaby Mountain Golf Course &amp; Driving Range: 604-280-7355</li>
+                            <li>Riverway Golf Course &amp; Driving Range: 604-280-GOLF(4653)</li>
+                            <li>Kensington Pitch &amp; Putt: 604-291-9525</li>
+                            <li>Central Park Pitch &amp; Putt: 604-434-2727</li>
+                        </ul>
+                    </div>
+                </article>
+            </main>
+        </div>
+
+        <!-- Common Element: Footer -->
+        <!-- This section will be the footer which will be used in all of our pages -->
+        <!-- Footer containing address, email and social media accounts of Burnaby's Golf website -->
+        <footer>
+            <!-- Shows the address and allows you to send an email to City of Burnaby -->
+            <div class="footerAlign">
+                <p><strong>City of Burnaby</strong> <br>101-4946 Canada Way <br>Burnaby, BC, V5G 4H7<br> <a href="mailto:golf@burnaby.ca"> Email us </a></p> 
+            </div>
+
+            <!-- Shows the icon to the social media accounts -->
+            <a href = "https://twitter.com/BurnabyGolf" target="_blank"> <img src="img/twitter-logo.png" height = "35" width = "35" alt = "Twitter logo"></a>
+
+            <a href = "https://www.facebook.com/BurnabyGolf" target="_blank"> <img src="img/facebook-logo.png" height = "35" width = "35" alt = "Facebook logo"></a>
+
+            <a href = "https://plus.google.com/110594864710142862253/posts" target="_blank"> <img src="img/google-plus-logo.png" height = "35" width = "35" alt = "Google+ logo"></a>
+        </footer>
+
+        <!-- Common Element: Script -->
+        <!-- Loding the scripts required for the login acorss the websit -->
+        <script type='text/javascript' src='js/jquery.js'></script>
+        <script type='text/javascript' src='js/login.js'></script>
+        <script src="js/hamburger.js"></script>
+        <script type='text/javascript'>
+            $(document).ready(function(){
+                $('.loginBox').popbox();
+            });
+        </script>
+    </body>
+</html>
